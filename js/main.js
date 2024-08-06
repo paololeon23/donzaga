@@ -1,3 +1,15 @@
+$('.owl-carousel').owlCarousel({
+    items: 1,
+    loop: true,
+    autoplay: true,
+    autoplayTimeout: 5000,
+    autoplayHoverPause: true,
+    nav: true,
+    dots: true,
+    touchDrag: true, // Habilitar el arrastre táctil
+    mouseDrag: true, // Habilitar el arrastre con el ratón
+});
+ 
  AOS.init({
  	duration: 800,
  	easing: 'slide'
