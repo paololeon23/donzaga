@@ -8976,7 +8976,7 @@ textarea.form-control {
 
     
     .whatsapp-btn {
-      position: sticky; /* Mantiene el botón en una posición fija en la pantalla */
+      position: fixed; /* Mantiene el botón en una posición fija en la pantalla */
       bottom: 20px; /* Distancia desde la parte inferior de la pantalla */
       left: 20px; /* Distancia desde el lado izquierdo de la pantalla */
       z-index: 1000; /* Asegura que el botón esté por encima de otros elementos */
@@ -8984,7 +8984,7 @@ textarea.form-control {
       border: 3px solid #207222; /* Borde del botón del mismo color que el fondo */
       border-radius: 50%; /* Hace que el botón sea redondo */
       text-align: center; /* Centra el contenido del botón */
-      font-size: 30px; /* Tamaño del ícono dentro del botón */
+      font-size: 30px; /* Tamaño del ícono dentro del botón */ 
       width: 60px; /* Ancho del botón */
       height: 60px; /* Alto del botón */
       display: flex; /* Usa flexbox para alinear el contenido */
@@ -8998,3 +8998,8 @@ textarea.form-control {
     .whatsapp-btn i {
       font-size: 30px; /* Tamaño del ícono */
     }
+
+.contactar ul li{
+  padding: 1rem;
+
+}
