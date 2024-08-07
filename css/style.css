@@ -9018,3 +9018,9 @@ textarea.form-control {
 .slider-item {
   overflow: auto;
 }
+
+@media (max-width: 768px) {
+  .responsive-margin {
+      margin-left: 2%;
+  }
+}
